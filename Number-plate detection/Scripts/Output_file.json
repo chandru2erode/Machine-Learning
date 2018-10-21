@@ -1,0 +1,329 @@
+{
+  "uuid": "",
+  "data_type": "alpr_results",
+  "epoch_time": 1540159121073,
+  "processing_time": {
+    "total": 615.7699999967008,
+    "plates": 178.01441955566406,
+    "vehicles": 391.5310000011232
+  },
+  "img_height": 889,
+  "img_width": 500,
+  "results": [
+    {
+      "plate": "KA53S6440",
+      "confidence": 94.15769958496094,
+      "region_confidence": 0,
+      "vehicle_region": {
+        "y": 122,
+        "x": 0,
+        "height": 500,
+        "width": 500
+      },
+      "region": "",
+      "plate_index": 0,
+      "processing_time_ms": 73.69300079345703,
+      "candidates": [
+        {
+          "matches_template": 0,
+          "plate": "KA53S6440",
+          "confidence": 94.15769958496094
+        },
+        {
+          "matches_template": 0,
+          "plate": "KA536440",
+          "confidence": 83.85651397705078
+        },
+        {
+          "matches_template": 0,
+          "plate": "KA5356440",
+          "confidence": 83.75580596923828
+        },
+        {
+          "matches_template": 0,
+          "plate": "KA53G6440",
+          "confidence": 83.72935485839844
+        }
+      ],
+      "coordinates": [
+        {
+          "y": 341,
+          "x": 235
+        },
+        {
+          "y": 363,
+          "x": 331
+        },
+        {
+          "y": 438,
+          "x": 317
+        },
+        {
+          "y": 416,
+          "x": 221
+        }
+      ],
+      "vehicle": {
+        "orientation": [
+          {
+            "confidence": 48.39480972290039,
+            "name": "225"
+          },
+          {
+            "confidence": 35.040672302246094,
+            "name": "180"
+          },
+          {
+            "confidence": 6.449263572692871,
+            "name": "135"
+          },
+          {
+            "confidence": 5.663419246673584,
+            "name": "0"
+          },
+          {
+            "confidence": 4.169859409332275,
+            "name": "315"
+          },
+          {
+            "confidence": 0.1661723554134369,
+            "name": "45"
+          },
+          {
+            "confidence": 0.0738987922668457,
+            "name": "missing"
+          },
+          {
+            "confidence": 0.040282875299453735,
+            "name": "270"
+          },
+          {
+            "confidence": 0.0016241949051618576,
+            "name": "90"
+          }
+        ],
+        "color": [
+          {
+            "confidence": 59.60693359375,
+            "name": "black"
+          },
+          {
+            "confidence": 15.440818786621094,
+            "name": "silver-gray"
+          },
+          {
+            "confidence": 11.00212574005127,
+            "name": "blue"
+          },
+          {
+            "confidence": 7.312923431396484,
+            "name": "red"
+          },
+          {
+            "confidence": 2.299938678741455,
+            "name": "white"
+          },
+          {
+            "confidence": 1.4323431253433228,
+            "name": "brown"
+          },
+          {
+            "confidence": 1.2115312814712524,
+            "name": "purple"
+          },
+          {
+            "confidence": 0.5308384895324707,
+            "name": "green"
+          },
+          {
+            "confidence": 0.5149663686752319,
+            "name": "gold-beige"
+          },
+          {
+            "confidence": 0.45417845249176025,
+            "name": "orange"
+          }
+        ],
+        "make": [
+          {
+            "confidence": 39.66877746582031,
+            "name": "honda"
+          },
+          {
+            "confidence": 34.97557067871094,
+            "name": "suzuki"
+          },
+          {
+            "confidence": 16.069110870361328,
+            "name": "maruti-suzuki"
+          },
+          {
+            "confidence": 2.922508955001831,
+            "name": "harley-davidson"
+          },
+          {
+            "confidence": 2.392993927001953,
+            "name": "seat"
+          },
+          {
+            "confidence": 0.7602761387825012,
+            "name": "bmw"
+          },
+          {
+            "confidence": 0.6831127405166626,
+            "name": "yamaha"
+          },
+          {
+            "confidence": 0.5703482031822205,
+            "name": "kawasaki"
+          },
+          {
+            "confidence": 0.25078120827674866,
+            "name": "volkswagen"
+          },
+          {
+            "confidence": 0.1971616894006729,
+            "name": "ducati"
+          }
+        ],
+        "body_type": [
+          {
+            "confidence": 96.58953857421875,
+            "name": "motorcycle"
+          },
+          {
+            "confidence": 2.5009493827819824,
+            "name": "sedan-wagon"
+          },
+          {
+            "confidence": 0.7111324667930603,
+            "name": "sedan-compact"
+          },
+          {
+            "confidence": 0.14826221764087677,
+            "name": "suv-crossover"
+          },
+          {
+            "confidence": 0.02274620160460472,
+            "name": "sedan-standard"
+          },
+          {
+            "confidence": 0.022233320400118828,
+            "name": "van-mini"
+          },
+          {
+            "confidence": 0.0015561070758849382,
+            "name": "tractor-trailer"
+          },
+          {
+            "confidence": 0.001023158896714449,
+            "name": "sedan-convertible"
+          },
+          {
+            "confidence": 0.00092199636856094,
+            "name": "suv-standard"
+          },
+          {
+            "confidence": 0.0005453845369629562,
+            "name": "sedan-sports"
+          }
+        ],
+        "year": [
+          {
+            "confidence": 53.48383331298828,
+            "name": "2010-2014"
+          },
+          {
+            "confidence": 29.09957504272461,
+            "name": "2015-2019"
+          },
+          {
+            "confidence": 16.186847686767578,
+            "name": "2005-2009"
+          },
+          {
+            "confidence": 1.1246190071105957,
+            "name": "2000-2004"
+          },
+          {
+            "confidence": 0.08439594507217407,
+            "name": "1995-1999"
+          },
+          {
+            "confidence": 0.010072422213852406,
+            "name": "1990-1994"
+          },
+          {
+            "confidence": 0.008321385830640793,
+            "name": "1980-1984"
+          },
+          {
+            "confidence": 0.0019291396019980311,
+            "name": "1985-1989"
+          },
+          {
+            "confidence": 0.00040585242095403373,
+            "name": "missing"
+          }
+        ],
+        "make_model": [
+          {
+            "confidence": 23.313751220703125,
+            "name": "honda_fit"
+          },
+          {
+            "confidence": 3.9131999015808105,
+            "name": "honda_brio"
+          },
+          {
+            "confidence": 3.8911449909210205,
+            "name": "maruti-suzuki_swift"
+          },
+          {
+            "confidence": 3.4298670291900635,
+            "name": "seat_leon"
+          },
+          {
+            "confidence": 2.5380325317382812,
+            "name": "honda_jazz"
+          },
+          {
+            "confidence": 1.8672233819961548,
+            "name": "suzuki_swift"
+          },
+          {
+            "confidence": 1.8226858377456665,
+            "name": "harley-davidson_twin-cam-96"
+          },
+          {
+            "confidence": 1.639617919921875,
+            "name": "renault_duster"
+          },
+          {
+            "confidence": 1.4280239343643188,
+            "name": "suzuki_aerio"
+          },
+          {
+            "confidence": 1.3264894485473633,
+            "name": "citroen_c3"
+          }
+        ]
+      },
+      "matches_template": 0,
+      "requested_topn": 10
+    }
+  ],
+  "credits_monthly_used": 96,
+  "version": 2,
+  "credits_monthly_total": 2000,
+  "error": false,
+  "regions_of_interest": [
+    {
+      "y": 0,
+      "x": 0,
+      "height": 889,
+      "width": 500
+    }
+  ],
+  "credit_cost": 2
+}

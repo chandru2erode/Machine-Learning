@@ -40,7 +40,7 @@ cv2.waitKey(0)
 """
 
 # Cropping image to 60% of bottom area
-cropped_img = img[(img.shape[0])/2:img.shape[0]]
+cropped_img = img[(img.shape[0])//2:img.shape[0]]
 cv2.namedWindow("Cropped Bottom Image",cv2.WINDOW_NORMAL)
 # Creating a Named window to display image
 cv2.imshow("Cropped Bottom Image",img)
