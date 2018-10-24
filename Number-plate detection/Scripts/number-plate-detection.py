@@ -1,9 +1,7 @@
 #!/usr/bin/python
 # -*- coding: latin-1 -*-
 import os, sys
-import sys
 # Importing sys (system specific parameters and functions) library
-import os
 import cv2
 # Importing the Opencv Library
 import numpy as np
