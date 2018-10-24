@@ -5,7 +5,7 @@ import base64
 import json, csv
 
 IMAGE_PATH = sys.argv[1]
-SECRET_KEY = 'sk_58338b00f93bab02f7f09c53'
+SECRET_KEY = 'xx_yyyyyyyyyyyyyyyyyyyyyyyy'
 
 with open(IMAGE_PATH, 'rb') as image_file:
     img_base64 = base64.b64encode(image_file.read())
